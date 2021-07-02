@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript" src="assets\js\spamspan.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -69,7 +70,7 @@
 										<img src="images/pic02.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="http://www.github.com/JordanGibsonAnalyst" class="link">R</a></h3>
+										<h3><a href="https://github.com/JordanGibsonAnalyst/PortfolioProjects/blob/main/BART%20Rider%20Clustering%20Project.R" class="link">R</a></h3>
 										<p>Click to view my clustering project using R</p>
 									</header>
 								</article>
@@ -78,8 +79,8 @@
 										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">SQL</a></h3>
-										<p>Lorem etiam nullam</p>
+										<h3><a href="https://github.com/JordanGibsonAnalyst/PortfolioProjects/blob/main/Data%20Cleaning%20Portfolio%20Project.sql" class="link">SQL</a></h3>
+										<p>Click to view my data cleaning project using SQL</p>
 									</header>
 								</article>
 								<article>
@@ -88,7 +89,7 @@
 									</span>
 									<header class="major">
 										<h3><a href="landing.html" class="link">Tableau</a></h3>
-										<p>Nisl sed aliquam</p>
+										<p>Click to view my tableau profile</p>
 									</header>
 								</article>
 							</section>
@@ -112,7 +113,34 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<h2>Contact Me</h2>
+								<form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+									<div class="fcf-form-group">
+										<label for="Name" class="fcf-label">Your name</label>
+										<div class="fcf-input-group">
+											<input type="text" id="Name" name="Name" class="fcf-form-control" required>
+										</div>
+									</div>
+							
+									<div class="fcf-form-group">
+										<label for="Email" class="fcf-label">Your email address</label>
+										<div class="fcf-input-group">
+											<input type="email" id="Email" name="Email" class="fcf-form-control" required>
+										</div>
+									</div>
+							
+									<div class="fcf-form-group">
+										<label for="Message" class="fcf-label">Your message</label>
+										<div class="fcf-input-group">
+											<textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+										</div>
+									</div>
+							
+									<div class="fcf-form-group">
+										<button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+										<input type="reset" value="Clear" />
+									</div>
+								<!-- <form method="post" action="contact-form-process.php">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -130,7 +158,7 @@
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
-									</ul>
+									</ul> -->
 								</form>
 							</section>
 							<section class="split">
@@ -138,14 +166,19 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="#">JordanGibsonAnalyst@gmail.com</a>
+										<span class="spamspan">
+											<span class="u">JordanGibsonAnalyst</span>
+											@
+											<span class="d">gmail.com</span>
+											(<span class="t">JordanGibsonAnalyst@gmail.com</span>)
+											</span>
 									</div>
-								</section>
+								</section> !-->
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
 										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
+										<span>(562) 303-7772</span>
 									</div>
 								</section>
 								<section>
@@ -182,6 +215,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
